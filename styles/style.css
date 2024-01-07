@@ -14,7 +14,6 @@ body {
     height: 600px;
     margin-left: 15%;
     border-radius: 16px;
-    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     margin-top: 50px;
 }
 
@@ -37,24 +36,83 @@ body {
     padding-left: 344px;
     margin-top: 16px;
 }
-.section-1{
+
+.section-1 {
     text-align: center;
     margin-top: 120px;
 }
-.section-1-h4{
+
+.section-1-h4 {
     color: #f00;
     font-size: 88px;
     font-weight: 700;
 }
-.section-1-p{
+
+.section-1-p {
     margin-top: 48px;
     color: #f00;
     font-size: 24px;
     font-weight: 500;
 }
-.section-1-h4-1{
+
+.section-1-h4-1 {
     margin-top: 16px;
     color: #070211;
     font-size: 48px;
     font-weight: 700;
+}
+
+.section-2 {
+    background: url('../image/Vectorrr.png');
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    width: 82.5%;
+    max-width: 1320px;
+    height: 600px;
+    margin-left: 15%;
+    border-radius: 16px;
+    margin-top: 120px;
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+}
+
+.section-2-all {
+    display: flex;
+}
+
+.section-2-div {
+    padding-top: 50px;
+    padding-left: 126px;
+}
+
+.section-2-h4 {
+    width: 642px;
+    color: #fff;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.section-2-p {
+    margin-top: 0px;
+    width: 697px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.section-2-btn {
+    margin-top: 48px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.section-2-img {
+    width: 319.83px;
+    height: 464.662px;
+    padding-top: 68px;
+    margin-left: 39px;
 }
