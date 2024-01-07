@@ -1,0 +1,39 @@
+body {
+    font-family: 'Merriweather', serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    /* font-family: 'Work Sans', sans-serif; */
+}
+
+.header {
+    background: url('../image/Banner\ Image.png');
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    width: 82.5%;
+    max-width: 1320px;
+    height: 600px;
+    margin-left: 15%;
+    border-radius: 16px;
+    /* background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+    margin-top: 50px;
+}
+
+.header-text {
+    padding-top: 177px;
+    text-align: center;
+    color: #fff;
+}
+
+.paragraph {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.header-text-h2 {
+    font-size: 72px;
+    font-weight: 900;
+    width: 632px;
+    text-align: center;
+    padding-left: 344px;
+    margin-top: 16px;
+}
