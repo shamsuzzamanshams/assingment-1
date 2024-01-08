@@ -131,7 +131,7 @@ body {
     max-width: 1320px;
     text-align: center;
     padding-top: 100px;
-    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    /* background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); */
 }
 
 .span-p {
@@ -212,9 +212,10 @@ body {
     width: 463px;
     height: 463px;
     border-radius: 50%;
-    border:15px solid #f00;
+    border: 15px solid #f00;
 }
-.section-4-common-div-2-h3{
+
+.section-4-common-div-2-h3 {
     margin-top: 112px;
     /* width: 126px; */
     font-size: 48px;
@@ -222,31 +223,36 @@ body {
     color: #f00;
     margin-bottom: 16px;
 }
-.section-4-common-div-2-p{
+
+.section-4-common-div-2-p {
     margin-top: 0px;
     width: 276px;
-    color:rgba(7, 2, 17, 0.60);
+    color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
     margin-bottom: 43px;
 }
-.section-5{
+
+.section-5 {
     text-align: center;
     margin-top: 120px;
     align-items: center;
 }
-.section-5-h4{
+
+.section-5-h4 {
     color: #070211;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 16px;
     text-transform: uppercase;
 }
-span{
+
+span {
     color: #f00;
 }
-.section-5-h3{
+
+.section-5-h3 {
     margin-top: 0px;
     color: #070211;
     font-size: 72px;
@@ -254,7 +260,8 @@ span{
     font-family: Merriweather;
     margin-bottom: 28px;
 }
-.section-5-div{
+
+.section-5-div {
     height: 96px;
     width: 1068px;
     color: rgba(7, 2, 17, 0.60);
@@ -263,4 +270,48 @@ span{
     font-weight: 500;
     line-height: 32px;
     margin-left: 20%;
+}
+.section-6{
+    background: url('../image/Rectangle\ 1.png');
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    width: 429px;
+    height: 433px;
+    margin-left: 1034px;   
+}
+.section-5-img{
+    position: absolute;
+    margin-right: 8000px;
+}
+.section-7-div{
+    margin-left: 140px;
+    padding-left: 160px;
+}
+.section-7-h4{
+    color: #f00;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.section-7-h3{
+    margin-top: 0;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+.section-7-p{
+    margin-top: 0;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    width: 896px;
+}
+.section-7-product-containar{
+    margin-top: 48px;
+    padding: 0px 300px 0px 300px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
 }
