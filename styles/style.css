@@ -131,7 +131,7 @@ body {
     max-width: 1320px;
     text-align: center;
     padding-top: 100px;
-    /* background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%); */
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
 
 .span-p {
@@ -271,47 +271,166 @@ span {
     line-height: 32px;
     margin-left: 20%;
 }
-.section-6{
+
+.section-6 {
     background: url('../image/Rectangle\ 1.png');
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
     width: 429px;
     height: 433px;
-    margin-left: 1034px;   
+    margin-left: 1034px;
 }
-.section-5-img{
+
+.section-5-img {
     position: absolute;
     margin-right: 8000px;
 }
-.section-7-div{
+
+.section-7-div {
     margin-left: 140px;
     padding-left: 160px;
 }
-.section-7-h4{
+
+.section-7-h4 {
     color: #f00;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 16px;
 }
-.section-7-h3{
+
+.section-7-h3 {
     margin-top: 0;
     color: #070211;
     font-size: 48px;
     font-weight: 900;
     margin-bottom: 22px;
 }
-.section-7-p{
+
+.section-7-p {
     margin-top: 0;
     color: rgba(7, 2, 17, 0.60);
     font-size: 20px;
     font-weight: 400;
     width: 896px;
 }
-.section-7-product-containar{
+
+.section-7-product-containar {
     margin-top: 48px;
     padding: 0px 300px 0px 300px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+}
+
+.Group-61 {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.mail-sec {
+    text-align: center;
+}
+
+.email-h4 {
+    margin-top: 40px;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.email-p {
+    margin-top: 0px;
+    width: 896px;
+    height: 64px;
+    margin-left: 500px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.placeholder-2 {
+    margin-top: 0px;
+    width: 648px;
+    height: 72px;
+    background: #FFF;
+    border-radius: 50px 0px 0px 50px;
+    border: none;
+}
+
+.Subscribe {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    border: none;
+    color: #fff;
+    text-align: center;
+
+}
+
+.footer {
+    width: 100%;
+    max-width: 2000px;
+    height: 620px;
+    background: #070211;
+    margin-top: 200px;
+}
+
+.footer-p {
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 120px;
+    margin-left: 140px;
+    width: 400px;
+}
+
+.common {
+    display: flex;
+}
+
+.common-2 {
+    padding-top: 120px;
+    margin-left: 600px;
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.hr {
+    margin-left: 140px;
+    margin-right: 140px;
+    border: 0.5px solid rgba(255, 255, 255, 0.15);
+}
+
+.footer-icon {
+    margin-top: 48px;
+}
+
+.footer-icon-div {
+    display: flex;
+    margin-left: 750px;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+
+.final-div {
+    margin-top: 50px;
+    color: #FFF;
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.final-p {
+    margin-right: 140px;
 }
