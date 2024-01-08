@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background: url('../image/Banner\ Image.png');
+    background: linear-gradient(40deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../image/Banner\ Image.png');
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
@@ -16,6 +16,7 @@ body {
     margin-left: 15%;
     border-radius: 16px;
     margin-top: 50px;
+    /* background-image: linear-gradient(40deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
 }
 
 .header-text {
@@ -64,7 +65,7 @@ body {
 }
 
 .section-2 {
-    background: url('../image/Vectorrr.png');
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../image/Vectorrr.png');
     background-repeat: no-repeat;
     position: relative;
     background-size: cover;
@@ -74,16 +75,18 @@ body {
     margin-left: 15%;
     border-radius: 16px;
     margin-top: 120px;
-    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
 }
 
 .section-2-all {
     display: flex;
+
 }
 
 .section-2-div {
     padding-top: 50px;
     padding-left: 126px;
+
 }
 
 .section-2-h4 {
@@ -117,8 +120,10 @@ body {
     height: 464.662px;
     padding-top: 68px;
     margin-left: 39px;
+
 }
-.section-3-div{
+
+.section-3-div {
     width: 82.5%;
     height: 482px;
     margin-top: 120px;
@@ -126,21 +131,24 @@ body {
     max-width: 1320px;
     text-align: center;
     padding-top: 100px;
-    background-color:rgba(252, 235, 235, 0.843);
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
-.span-p{
+
+.span-p {
     color: #f00;
     font-size: 32px;
     font-weight: 600;
     text-transform: capitalize;
 }
-.section-3-p{
+
+.section-3-p {
     color: #070211;
     font-size: 32px;
     font-weight: 600;
     text-transform: capitalize;
 }
-.section-3-btn{
+
+.section-3-btn {
     width: 167px;
     height: 56px;
     border: none;
@@ -151,4 +159,75 @@ body {
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 48px;
+}
+
+.section-4-common-div {
+    display: flex;
+    margin-top: 120px;
+    width: 82.5%;
+    max-width: 1320px;
+    margin-left: 15%;
+}
+
+.section-4-common-div-2 {
+    display: inline;
+    margin-left: 118px;
+}
+
+.section-4-h6 {
+    margin-top: 104px;
+    color: #f00;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.section-4-h4 {
+    margin-top: 0px;
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+.section-4-p {
+    margin-top: 0px;
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    width: 393px;
+    /* height: 128px; */
+    line-height: 32px;
+}
+
+.elli {
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 50%;
+    padding: 49px;
+}
+
+.section-4-div-2-img {
+    width: 463px;
+    height: 463px;
+    border-radius: 50%;
+    border:15px solid #f00;
+}
+.section-4-common-div-2-h3{
+    margin-top: 112px;
+    /* width: 126px; */
+    font-size: 48px;
+    font-weight: 700;
+    color: #f00;
+    margin-bottom: 16px;
+}
+.section-4-common-div-2-p{
+    margin-top: 0px;
+    width: 276px;
+    color:rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 43px;
 }
